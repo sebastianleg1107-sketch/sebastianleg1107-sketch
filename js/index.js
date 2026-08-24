@@ -1,6 +1,4 @@
-// ==========================================
-// 1. VARIABLES GLOBALES Y CONFIGURACIÓN
-// ==========================================
+
 let baseDeDatos = {};
 const modelosInteractivos = [];
 let objetoSeleccionadoPrevio = null;
@@ -31,7 +29,7 @@ container.appendChild(renderer.domElement);
 const controls = new THREE.OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
 
-// ILUMINACIÓN
+
 const hemiLight = new THREE.HemisphereLight(0xffffff, 0x444444, 1.2);
 hemiLight.position.set(0, 20, 0);
 scene.add(hemiLight);
@@ -44,9 +42,7 @@ const dirLightBack = new THREE.DirectionalLight(0xffffff, 0.6);
 dirLightBack.position.set(-5, -5, -7.5);
 scene.add(dirLightBack);
 
-// ==========================================
-// 2. CARGA DINÁMICA DE MODELOS Y JSON
-// ==========================================
+
 const loader = new THREE.GLTFLoader();
 
 fetch("./js/musculos.json")
@@ -113,9 +109,6 @@ fetch("./js/musculos.json")
   })
   .catch((error) => console.error("Error al cargar JSON:", error));
 
-// ==========================================
-// 3. INTERACCIÓN (CLICS Y RESALTADO CON TRANSPARENCIA)
-// ==========================================
 const raycaster = new THREE.Raycaster();
 const mouse = new THREE.Vector2();
 
@@ -134,6 +127,7 @@ window.addEventListener("click", (event) => {
     const objetoSeleccionado = intersects[0].object;
     resaltarObjeto(objetoSeleccionado);
   }
+  abrirPanelMovil('derecho');
 });
 
 function resaltarObjeto(objeto3D) {
@@ -142,21 +136,19 @@ function resaltarObjeto(objeto3D) {
   modelosInteractivos.forEach((mesh) => {
     if (mesh.userData.tipo !== "hueso") {
       
-      // 1. Siempre restauramos su color anatómico original
       if (mesh.userData.tipo === "tendon") {
         mesh.material.color.setHex(0xeaeaea);
       } else {
         mesh.material.color.setHex(0x9e2a2b);
       }
-      
-      // 2. Controlamos únicamente la transparencia según si está seleccionado o no
+
       if (mesh.userData.idObjeto === idSeleccionado) {
-        // El músculo seleccionado se mantiene 100% sólido
+
         mesh.material.transparent = false;
         mesh.material.opacity = 1.0;
         mesh.material.depthWrite = true; 
       } else {
-        // El resto de los músculos se vuelven "cristalinos"
+
         mesh.material.transparent = true;
         mesh.material.opacity = 0.1;
         mesh.material.depthWrite = false; 
@@ -208,21 +200,18 @@ function mostrarInfoPanel(idObjeto) {
   }
 }
 
-// ==========================================
-// 4. FILTRADO CORREGIDO DE CAPAS
-// ==========================================
+
 window.filtrarCapa = function (capaObjetivo, botonClicado) {
   
-  // --- NUEVO: Cambiar el color del botón presionado ---
+
   if (botonClicado) {
-    // Buscamos todos los botones de capas y les quitamos la clase "active-layer"
+
     const botones = document.querySelectorAll('.lista-capas .layer-btn');
     botones.forEach(btn => btn.classList.remove('active-layer'));
     
-    // Le ponemos la clase "active-layer" solo al botón que acabas de presionar
+
     botonClicado.classList.add('active-layer');
   }
-  // --------------------------------------------------
 
   modelosInteractivos.forEach((mesh) => {
     const capaMesh = mesh.userData.capa ? mesh.userData.capa.toLowerCase() : "";
@@ -239,7 +228,7 @@ window.filtrarCapa = function (capaObjetivo, botonClicado) {
       if (tipoMesh !== "hueso") {
         mesh.material.transparent = false;
         mesh.material.opacity = 1.0;
-        mesh.material.depthWrite = true; // Volvemos a hacerlos sólidos
+        mesh.material.depthWrite = true; 
         if (tipoMesh === "tendon") mesh.material.color.setHex(0xeaeaea);
         else mesh.material.color.setHex(0x9e2a2b);
       }
@@ -250,9 +239,7 @@ window.filtrarCapa = function (capaObjetivo, botonClicado) {
   objetoSeleccionadoPrevio = null;
 };
 
-// ==========================================
-// 5. ANIMACIÓN Y RESPONSIVE
-// ==========================================
+
 function animar() {
   requestAnimationFrame(animar);
   controls.update();
@@ -268,18 +255,15 @@ window.addEventListener("resize", () => {
   renderer.setSize(width, height);
 });
 
-// ==========================================
-// 6. BUSCADOR INTEGRADO (CON TRANSPARENCIA Y LISTA)
-// ==========================================
+
 const searchInput = document.getElementById("search-input");
 if (searchInput) {
   searchInput.addEventListener("input", (evento) => {
     const textoBuscado = evento.target.value.toLowerCase();
 
-    // 1. Actualizamos la lista de texto
     generarListaMusculos(textoBuscado);
 
-    // 2. Actualizamos los modelos 3D
+
     modelosInteractivos.forEach((mesh) => {
       const tipoMesh = mesh.userData.tipo;
       const idObjeto = mesh.userData.idObjeto;
@@ -306,16 +290,14 @@ if (searchInput) {
   });
 }
 
-// ==========================================
-// 7. LISTA DINÁMICA DE MÚSCULOS
-// ==========================================
+
 function generarListaMusculos(filtro = "") {
   const contenedorLista = document.getElementById("lista-musculos");
   if (!contenedorLista) return;
   
   contenedorLista.innerHTML = ""; 
 
-  if (filtro.trim() === "") return; // Si no hay texto, no mostramos nada en la lista
+  if (filtro.trim() === "") return; 
 
   Object.keys(baseDeDatos).forEach((idObjeto) => {
     const info = baseDeDatos[idObjeto];
@@ -337,7 +319,7 @@ function generarListaMusculos(filtro = "") {
           if (objeto3D) {
             resaltarObjeto(objeto3D);
           }
-          // Limpiamos el buscador y la lista después de seleccionar
+  
           document.getElementById("search-input").value = "";
           contenedorLista.innerHTML = "";
         });
@@ -346,4 +328,27 @@ function generarListaMusculos(filtro = "") {
       }
     }
   });
+}
+
+
+function abrirPanelMovil(panel) {
+
+  if (window.innerWidth > 768) return;
+
+  const panelIzquierdo = document.querySelector('.panel-izquierdo');
+  const panelDerecho = document.querySelector('.panel-derecho');
+  const btnCapas = document.getElementById('nav-btn-capas');
+  const btnInfo = document.getElementById('nav-btn-info');
+
+  if (panel === 'izquierdo') {
+    panelIzquierdo.classList.add('panel-activo');
+    panelDerecho.classList.remove('panel-activo');
+    btnCapas.classList.add('nav-activo');
+    btnInfo.classList.remove('nav-activo');
+  } else if (panel === 'derecho') {
+    panelDerecho.classList.add('panel-activo');
+    panelIzquierdo.classList.remove('panel-activo');
+    btnInfo.classList.add('nav-activo');
+    btnCapas.classList.remove('nav-activo');
+  }
 }
