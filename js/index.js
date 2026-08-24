@@ -112,8 +112,24 @@ fetch("./js/musculos.json")
 const raycaster = new THREE.Raycaster();
 const mouse = new THREE.Vector2();
 
-window.addEventListener("click", (event) => {
+
+let inicioToqueX = 0;
+let inicioToqueY = 0;
+
+window.addEventListener("pointerdown", (event) => {
+  inicioToqueX = event.clientX;
+  inicioToqueY = event.clientY;
+});
+
+window.addEventListener("pointerup", (event) => {
+ 
+  const distanciaX = Math.abs(event.clientX - inicioToqueX);
+  const distanciaY = Math.abs(event.clientY - inicioToqueY);
+  
+  if (distanciaX > 5 || distanciaY > 5) return;
+
   const rect = renderer.domElement.getBoundingClientRect();
+ 
   if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) return;
 
   mouse.x = ((event.clientX - rect.left) / container.clientWidth) * 2 - 1;
@@ -126,8 +142,12 @@ window.addEventListener("click", (event) => {
   if (intersects.length > 0) {
     const objetoSeleccionado = intersects[0].object;
     resaltarObjeto(objetoSeleccionado);
+    
+   
+    if (window.innerWidth <= 768 && typeof window.abrirPanelMovil === 'function') {
+      window.abrirPanelMovil('derecho');
+    }
   }
-  abrirPanelMovil('derecho');
 });
 
 function resaltarObjeto(objeto3D) {
@@ -331,24 +351,31 @@ function generarListaMusculos(filtro = "") {
 }
 
 
-function abrirPanelMovil(panel) {
 
-  if (window.innerWidth > 768) return;
-
+window.abrirPanelMovil = function(panel) {
   const panelIzquierdo = document.querySelector('.panel-izquierdo');
   const panelDerecho = document.querySelector('.panel-derecho');
   const btnCapas = document.getElementById('nav-btn-capas');
   const btnInfo = document.getElementById('nav-btn-info');
 
+  if (!panelIzquierdo || !panelDerecho) return;
+
   if (panel === 'izquierdo') {
     panelIzquierdo.classList.add('panel-activo');
     panelDerecho.classList.remove('panel-activo');
-    btnCapas.classList.add('nav-activo');
-    btnInfo.classList.remove('nav-activo');
+    if (btnCapas) btnCapas.classList.add('nav-activo');
+    if (btnInfo) btnInfo.classList.remove('nav-activo');
   } else if (panel === 'derecho') {
     panelDerecho.classList.add('panel-activo');
     panelIzquierdo.classList.remove('panel-activo');
-    btnInfo.classList.add('nav-activo');
-    btnCapas.classList.remove('nav-activo');
+    if (btnInfo) btnInfo.classList.add('nav-activo');
+    if (btnCapas) btnCapas.classList.remove('nav-activo');
   }
-}
+};
+
+// Abrir panel izquierdo por defecto en celulares al cargar
+setTimeout(() => {
+  if (window.innerWidth <= 768) {
+    window.abrirPanelMovil('izquierdo');
+  }
+}, 500);
