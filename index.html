@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Músculos dorsales</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="css/index.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+  </head>
+  <body>
+    <div class="app-container">
+      <aside class="panel-izquierdo">
+        <div class="header-capas">
+          <i class="fa-solid fa-layer-group text-pink"></i>
+          <h2>Capas Musculares</h2>
+        </div>
+
+        <div style="position: relative; width: 100%; margin-bottom: 5px">
+          <div class="buscador">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input
+              type="text"
+              id="search-input"
+              placeholder="Buscar músculo..."
+            />
+          </div>
+
+          <div
+            id="lista-musculos"
+            style="
+              position: absolute;
+              top: 100%;
+              left: 0;
+              width: 100%;
+              max-height: 250px;
+              overflow-y: auto;
+              z-index: 100;
+              margin-top: 5px;
+              border-radius: 8px;
+              box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+            "
+          ></div>
+        </div>
+
+        <div class="lista-capas">
+          <button class="layer-btn" onclick="filtrarCapa('superficial', this)">
+            <i class="fa-solid fa-person"></i> Músculos Superficiales
+          </button>
+          <button class="layer-btn" onclick="filtrarCapa('intermedio', this)">
+            <i class="fa-solid fa-person-running"></i> Músculos Intermedios
+          </button>
+          <button class="layer-btn" onclick="filtrarCapa('intrinseco', this)">
+            <i class="fa-solid fa-cubes"></i> Músculos Intrínsecos
+          </button>
+
+          <button
+            class="layer-btn active-layer"
+            onclick="filtrarCapa('todos', this)"
+          >
+            Ver Todos
+            <i class="fa-solid fa-chevron-right" style="margin-left: auto"></i>
+          </button>
+        </div>
+
+        <div class="creditos">
+          <p>
+            Plataforma interactiva por <br /><b>Sebastian Legarda Valenzuela</b>
+          </p>
+          <div style="margin-top: 10px">
+            <p>Modelos 3D provistos por <br /><b>Z-Anatomy.com</b></p>
+            <span>(Gauthier Kervyn & Lluis Vinent)</span>
+          </div>
+          <p style="margin-top: 10px"><span>2026</span></p>
+        </div>
+      </aside>
+
+      <main class="canvas-wrapper">
+        <h1 class="titulo-movil">Músculo Dorsal Ancho</h1>
+        <div id="canvas-container"></div>
+        <div class="controles-flotantes"></div>
+      </main>
+
+      <aside class="panel-derecho" id="info-panel">
+        <p
+          class="placeholder-text"
+          style="
+            color: #8492a6;
+            font-size: 0.9rem;
+            text-align: center;
+            margin-top: 20px;
+          "
+        >
+          Haz clic en un músculo para ver su información.
+        </p>
+      </aside>
+
+      <nav class="mobile-nav">
+        <button><i class="fa-solid fa-layer-group text-pink"></i> Capas</button>
+        <button><i class="fa-solid fa-magnifying-glass"></i> Buscar</button>
+        <button><i class="fa-regular fa-heart"></i> Favoritos</button>
+        <button><i class="fa-solid fa-gear"></i> Ajustes</button>
+      </nav>
+    </div>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

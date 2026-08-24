@@ -1,0 +1,137 @@
+:root {
+  /* Tonos extraídos de la imagen */
+  --bg-dark: #090A0F; 
+  --panel-bg: #0F121A; 
+  --card-bg: #181C25;
+  --panel-border: rgba(255, 255, 255, 0.04);
+
+  /* Acentos */
+  --ui-primary: #8B20A1; /* Morado del degradado */
+  --ui-primary-hover: #C9167F; /* Rosa del degradado */
+  --ui-accent: #E23D75; /* Rosa texto/iconos */
+
+  /* Sistemas Anatómicos */
+  --sys-musculos: #E23D75;
+  --sys-venas: #0EA5E9;
+  --sys-arterias: #EF4444;
+  --sys-nervios: #EAB308;
+  --sys-esqueleto: #E5E7EB;
+
+  --text-main: #F8FAFC;
+  --text-muted: #8492A6;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', system-ui, sans-serif; }
+
+body { background-color: var(--bg-dark); color: var(--text-main); height: 100vh; overflow: hidden; }
+
+.app-container { display: flex; height: 100vh; width: 100vw; overflow: hidden; padding: 10px; gap: 10px; }
+
+.panel-izquierdo, .panel-derecho {
+  width: 340px;
+  background-color: var(--panel-bg);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  gap: 20px;
+  z-index: 10;
+  position: relative; /* Importante para que los créditos se queden abajo */
+}
+
+.text-pink { color: var(--ui-accent); }
+
+/* HEADER Y BUSCADOR */
+.header-capas { display: flex; align-items: center; gap: 12px; }
+.header-capas h2 { font-size: 1.15rem; font-weight: 500; }
+
+.buscador { position: relative; display: flex; align-items: center; }
+.buscador input {
+  width: 100%;
+  background: var(--bg-dark);
+  border: 1px solid var(--panel-border);
+  color: var(--text-main);
+  padding: 12px 15px 12px 40px;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.3s;
+}
+.buscador input:focus {
+  border-color: var(--ui-accent);
+}
+.buscador .fa-magnifying-glass { position: absolute; left: 14px; color: var(--text-muted); }
+
+/* BOTONES DEL PANEL IZQUIERDO */
+.lista-capas { display: flex; flex-direction: column; gap: 12px; margin-top: 10px; }
+.layer-btn {
+  display: flex; align-items: center; gap: 12px;
+  width: 100%; padding: 16px;
+  background-color: var(--card-bg);
+  color: var(--text-main);
+  border: 1px solid var(--panel-border);
+  border-radius: 12px;
+  font-size: 0.9rem; font-weight: 500;
+  cursor: pointer; transition: all 0.2s ease;
+}
+.layer-btn i { color: var(--text-muted); width: 20px; text-align: center; }
+.layer-btn:hover { background-color: rgba(255,255,255,0.05); }
+
+/* Le quitamos el fucsia al botón "Ver Todos" para que sea estándar */
+.layer-btn.primary {
+  margin-top: 10px;
+}
+
+/* NUEVO ESTILO: BOTÓN SELECCIONADO PERMANENTE */
+.layer-btn.active-layer {
+  background-color: #121E2D; /* Fondo azul oscuro */
+  border: 1px solid var(--sys-venas); /* Borde azul eléctrico */
+  color: var(--sys-venas); /* Texto azul eléctrico */
+  box-shadow: 0 0 12px rgba(14, 165, 233, 0.25);
+}
+.layer-btn.active-layer i {
+  color: var(--sys-venas);
+}
+
+/* CRÉDITOS */
+.creditos {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  text-align: center;
+  border-top: 1px solid #2A303C;
+  padding-top: 15px;
+}
+.creditos p {
+  color: #8492A6;
+  font-size: 0.75rem;
+  margin: 0;
+  line-height: 1.5;
+}
+.creditos b { color: #F8FAFC; }
+.creditos span { font-size: 0.65rem; color: #5c677d; }
+
+/* CANVAS Y CONTROLES CENTRALES */
+.canvas-wrapper { flex: 1; position: relative; border-radius: 16px; overflow: hidden; background: var(--bg-dark); }
+#canvas-container { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.controles-flotantes { position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; }
+
+/* TARJETAS DEL PANEL DERECHO */
+.right-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px; }
+.title-container { display: flex; gap: 12px; align-items: flex-start; }
+.title-container h2 { color: var(--text-main); font-size: 1.2rem; font-weight: 500; }
+.title-container i { margin-top: 5px; font-size: 1.2rem; }
+
+.info-section {
+  background-color: var(--card-bg);
+  border-radius: 12px; padding: 20px; margin-bottom: 15px;
+  border: 1px solid var(--panel-border);
+}
+.info-section h4 {
+  color: var(--ui-accent); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; font-weight: 600; display: flex; align-items: center; gap: 8px;
+}
+.info-section p { font-size: 0.9rem; line-height: 1.6; color: var(--text-muted); margin-bottom: 6px; }
+.info-section p b { color: var(--text-main); font-weight: 500; }
+
+.titulo-movil, .mobile-nav { display: none; }
