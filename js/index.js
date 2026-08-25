@@ -26,6 +26,19 @@ if ("outputColorSpace" in renderer) {
 container.appendChild(renderer.domElement);
 
 const controls = new THREE.OrbitControls(camera, renderer.domElement);
+
+controls.listenToKeyEvents(window); 
+
+
+controls.keys = {
+  LEFT: 'KeyA',  
+  UP: 'KeyW',    
+  RIGHT: 'KeyD',  
+  BOTTOM: 'KeyS'  
+};
+
+
+controls.keyPanSpeed = 15.0;
 controls.enableDamping = true;
 
 const hemiLight = new THREE.HemisphereLight(0xffffff, 0x444444, 1.2);
