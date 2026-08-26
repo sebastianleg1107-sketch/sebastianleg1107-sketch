@@ -10,43 +10,43 @@
   "espinal_cabeza_der": {
     "nombre": "Músculo Espinal de la Cabeza (Derecho)", "tipo": "musculo", "grupo": "intrínseco", "capa": "intermedia",
     "archivo_glb": "./modelos/erectores espinales/espina/espinal_cabeza_der.glb",
-    "origen": "Apófisis espinosas cervicales inferiores y torácicas superiores.", "insercion": "Hueso occipital.", "posicion": "Dorso, región posterior del cuello.", "funcion": "Extensión de la cabeza y el cuello.", "irrigacion": "Arteria cervical profunda.", "inervacion": "Ramas posteriores de los nervios espinales cervicales."
+    "origen": "Procesos espinosos cervicales inferiores y torácicas superiores.", "insercion": "Hueso occipital.", "posicion": "Dorso, región posterior del cuello.", "funcion": "Extensión de la cabeza y el cuello.", "irrigacion": "Arteria cervical profunda.", "inervacion": "Ramas posteriores de los nervios espinales cervicales."
   },
   "espinal_cabeza_izq": {
     "nombre": "Músculo Espinal de la Cabeza (Izquierdo)", "tipo": "musculo", "grupo": "intrínseco", "capa": "intermedia",
     "archivo_glb": "./modelos/erectores espinales/espina/espinal_cabeza_izq.glb",
-    "origen": "Apófisis espinosas cervicales inferiores y torácicas superiores.", "insercion": "Hueso occipital.", "posicion": "Dorso, región posterior del cuello.", "funcion": "Extensión de la cabeza y el cuello.", "irrigacion": "Arteria cervical profunda.", "inervacion": "Ramas posteriores de los nervios espinales cervicales."
+    "origen": "Procesos espinosos cervicales inferiores y torácicas superiores.", "insercion": "Hueso occipital.", "posicion": "Dorso, región posterior del cuello.", "funcion": "Extensión de la cabeza y el cuello.", "irrigacion": "Arteria cervical profunda.", "inervacion": "Ramas posteriores de los nervios espinales cervicales."
   },
   "espinal_cervical_der": {
     "nombre": "Músculo Espinal Cervical (Derecho)", "tipo": "musculo", "grupo": "intrínseco", "capa": "intermedia",
     "archivo_glb": "./modelos/erectores espinales/espina/espinal_cervical_der.glb",
-    "origen": "Apófisis espinosas de C7 a T2.", "insercion": "Apófisis espinosas de C2 a C4.", "posicion": "Columna cervical posterior.", "funcion": "Extensión de la columna cervical.", "irrigacion": "Arteria cervical profunda.", "inervacion": "Ramas posteriores de nervios espinales."
+    "origen": "Procesos espinosos de C7 a T2.", "insercion": "Procesos espinosos de C2 a C4.", "posicion": "Columna cervical posterior.", "funcion": "Extensión de la columna cervical.", "irrigacion": "Arteria cervical profunda.", "inervacion": "Ramas posteriores de nervios espinales."
   },
   "espinal_cervical_izq": {
     "nombre": "Músculo Espinal Cervical (Izquierdo)", "tipo": "musculo", "grupo": "intrínseco", "capa": "intermedia",
     "archivo_glb": "./modelos/erectores espinales/espina/espinal_cervical_izq.glb",
-    "origen": "Apófisis espinosas de C7 a T2.", "insercion": "Apófisis espinosas de C2 a C4.", "posicion": "Columna cervical posterior.", "funcion": "Extensión de la columna cervical.", "irrigacion": "Arteria cervical profunda.", "inervacion": "Ramas posteriores de nervios espinales."
+    "origen": "Procesos espinosos de C7 a T2.", "insercion": "Procesos espinosos de C2 a C4.", "posicion": "Columna cervical posterior.", "funcion": "Extensión de la columna cervical.", "irrigacion": "Arteria cervical profunda.", "inervacion": "Ramas posteriores de nervios espinales."
   },
   "espinal_toracico_der": {
     "nombre": "Músculo Espinal Torácico (Derecho)", "tipo": "musculo", "grupo": "intrínseco", "capa": "intermedia",
     "archivo_glb": "./modelos/erectores espinales/espina/espinal_toracico_der.glb",
-    "origen": "Apófisis espinosas de T11 a L2.", "insercion": "Apófisis espinosas de T1 a T8.", "posicion": "Columna torácica posterior.", "funcion": "Extensión de la columna torácica.", "irrigacion": "Arterias intercostales posteriores.", "inervacion": "Ramas posteriores de nervios espinales torácicos."
+    "origen": "Procesos espinosos de T11 a L2.", "insercion": "Procesos espinosos de T1 a T8.", "posicion": "Columna torácica posterior.", "funcion": "Extensión de la columna torácica.", "irrigacion": "Arterias intercostales posteriores.", "inervacion": "Ramas posteriores de nervios espinales torácicos."
   },
   "espinal_toracico_izq": {
     "nombre": "Músculo Espinal Torácico (Izquierdo)", "tipo": "musculo", "grupo": "intrínseco", "capa": "intermedia",
     "archivo_glb": "./modelos/erectores espinales/espina/espinal_toracico_izq.glb",
-    "origen": "Apófisis espinosas de T11 a L2.", "insercion": "Apófisis espinosas de T1 a T8.", "posicion": "Columna torácica posterior.", "funcion": "Extensión de la columna torácica.", "irrigacion": "Arterias intercostales posteriores.", "inervacion": "Ramas posteriores de nervios espinales torácicos."
+    "origen": "Procesos espinosos de T11 a L2.", "insercion": "Procesos espinosos de T1 a T8.", "posicion": "Columna torácica posterior.", "funcion": "Extensión de la columna torácica.", "irrigacion": "Arterias intercostales posteriores.", "inervacion": "Ramas posteriores de nervios espinales torácicos."
   },
 
   "iliocostal_cervical_der": {
     "nombre": "Músculo Iliocostal Cervical (Derecho)", "tipo": "musculo", "grupo": "intrínseco", "capa": "intermedia",
     "archivo_glb": "./modelos/erectores espinales/iliocostales/iliocostal_cervical_der.glb",
-    "origen": "Ángulos de las costillas 3 a 6.", "insercion": "Apófisis transversas de C4 a C6.", "posicion": "Lateral a la columna cervical.", "funcion": "Extensión e inclinación lateral del cuello.", "irrigacion": "Arteria cervical profunda.", "inervacion": "Ramas posteriores de nervios espinales."
+    "origen": "Ángulos de las costillas 3 a 6.", "insercion": "Procesos tranversos de C4 a C6.", "posicion": "Lateral a la columna cervical.", "funcion": "Extensión e inclinación lateral del cuello.", "irrigacion": "Arteria cervical profunda.", "inervacion": "Ramas posteriores de nervios espinales."
   },
   "iliocostal_cervical_izq": {
     "nombre": "Músculo Iliocostal Cervical (Izquierdo)", "tipo": "musculo", "grupo": "intrínseco", "capa": "intermedia",
     "archivo_glb": "./modelos/erectores espinales/iliocostales/iliocostal_cervical_izq.glb",
-    "origen": "Ángulos de las costillas 3 a 6.", "insercion": "Apófisis transversas de C4 a C6.", "posicion": "Lateral a la columna cervical.", "funcion": "Extensión e inclinación lateral del cuello.", "irrigacion": "Arteria cervical profunda.", "inervacion": "Ramas posteriores de nervios espinales."
+    "origen": "Ángulos de las costillas 3 a 6.", "insercion": "Procesos tranversos de C4 a C6.", "posicion": "Lateral a la columna cervical.", "funcion": "Extensión e inclinación lateral del cuello.", "irrigacion": "Arteria cervical profunda.", "inervacion": "Ramas posteriores de nervios espinales."
   },
   "iliocostal_lumbar_der": {
     "nombre": "Músculo Iliocostal Lumbar (Derecho)", "tipo": "musculo", "grupo": "intrínseco", "capa": "intermedia",
@@ -61,95 +61,95 @@
   "iliocostal_toracico_der": {
     "nombre": "Músculo Iliocostal Torácico (Derecho)", "tipo": "musculo", "grupo": "intrínseco", "capa": "intermedia",
     "archivo_glb": "./modelos/erectores espinales/iliocostales/iliocostal_toracico_der.glb",
-    "origen": "Ángulos de las costillas inferiores (7 a 12).", "insercion": "Ángulos de las costillas superiores (1 a 6) y apófisis transversa de C7.", "posicion": "Región torácica.", "funcion": "Extensión e inclinación lateral del tórax.", "irrigacion": "Arterias intercostales.", "inervacion": "Ramas posteriores de nervios espinales."
+    "origen": "Ángulos de las costillas inferiores (7 a 12).", "insercion": "Ángulos de las costillas superiores (1 a 6) y Proceso transverso de C7.", "posicion": "Región torácica.", "funcion": "Extensión e inclinación lateral del tórax.", "irrigacion": "Arterias intercostales.", "inervacion": "Ramas posteriores de nervios espinales."
   },
   "iliocostal_toracico_izq": {
     "nombre": "Músculo Iliocostal Torácico (Izquierdo)", "tipo": "musculo", "grupo": "intrínseco", "capa": "intermedia",
     "archivo_glb": "./modelos/erectores espinales/iliocostales/iliocostal_toracico_izq.glb",
-    "origen": "Ángulos de las costillas inferiores (7 a 12).", "insercion": "Ángulos de las costillas superiores (1 a 6) y apófisis transversa de C7.", "posicion": "Región torácica.", "funcion": "Extensión e inclinación lateral del tórax.", "irrigacion": "Arterias intercostales.", "inervacion": "Ramas posteriores de nervios espinales."
+    "origen": "Ángulos de las costillas inferiores (7 a 12).", "insercion": "Ángulos de las costillas superiores (1 a 6) y Proceso transverso de C7.", "posicion": "Región torácica.", "funcion": "Extensión e inclinación lateral del tórax.", "irrigacion": "Arterias intercostales.", "inervacion": "Ramas posteriores de nervios espinales."
   },
 
   "longisimo_cabeza_der": {
     "nombre": "Músculo Longísimo de la Cabeza (Derecho)", "tipo": "musculo", "grupo": "intrínseco", "capa": "intermedia",
     "archivo_glb": "./modelos/erectores espinales/longisimo/longisimo_cabeza_der.glb",
-    "origen": "Apófisis transversas de T1-T5 y articulares de C4-C7.", "insercion": "Apófisis mastoides del hueso temporal.", "posicion": "Cuello posterior, profundo al esplenio.", "funcion": "Extensión y rotación de la cabeza hacia el mismo lado.", "irrigacion": "Arteria occipital y cervical profunda.", "inervacion": "Ramas posteriores de nervios espinales."
+    "origen": "Procesos tranversos de T1-T5 y articulares de C4-C7.", "insercion": "Procesos mastoides del hueso temporal.", "posicion": "Cuello posterior, profundo al esplenio.", "funcion": "Extensión y rotación de la cabeza hacia el mismo lado.", "irrigacion": "Arteria occipital y cervical profunda.", "inervacion": "Ramas posteriores de nervios espinales."
   },
   "longisimo_cabeza_izq": {
     "nombre": "Músculo Longísimo de la Cabeza (Izquierdo)", "tipo": "musculo", "grupo": "intrínseco", "capa": "intermedia",
     "archivo_glb": "./modelos/erectores espinales/longisimo/longisimo_cabeza_izq.glb",
-    "origen": "Apófisis transversas de T1-T5 y articulares de C4-C7.", "insercion": "Apófisis mastoides del hueso temporal.", "posicion": "Cuello posterior, profundo al esplenio.", "funcion": "Extensión y rotación de la cabeza hacia el mismo lado.", "irrigacion": "Arteria occipital y cervical profunda.", "inervacion": "Ramas posteriores de nervios espinales."
+    "origen": "Procesos tranversos de T1-T5 y articulares de C4-C7.", "insercion": "Procesos mastoides del hueso temporal.", "posicion": "Cuello posterior, profundo al esplenio.", "funcion": "Extensión y rotación de la cabeza hacia el mismo lado.", "irrigacion": "Arteria occipital y cervical profunda.", "inervacion": "Ramas posteriores de nervios espinales."
   },
   "longisimo_cervical_der": {
     "nombre": "Músculo Longísimo Cervical (Derecho)", "tipo": "musculo", "grupo": "intrínseco", "capa": "intermedia",
     "archivo_glb": "./modelos/erectores espinales/longisimo/longisimo_cervical_der.glb",
-    "origen": "Apófisis transversas de T1 a T5.", "insercion": "Apófisis transversas de C2 a C6.", "posicion": "Región cervical posterior.", "funcion": "Extensión y flexión lateral del cuello.", "irrigacion": "Arteria cervical profunda.", "inervacion": "Ramas posteriores de nervios espinales."
+    "origen": "Procesos tranversos de T1 a T5.", "insercion": "Procesos tranversos de C2 a C6.", "posicion": "Región cervical posterior.", "funcion": "Extensión y flexión lateral del cuello.", "irrigacion": "Arteria cervical profunda.", "inervacion": "Ramas posteriores de nervios espinales."
   },
   "longisimo_cervical_izq": {
     "nombre": "Músculo Longísimo Cervical (Izquierdo)", "tipo": "musculo", "grupo": "intrínseco", "capa": "intermedia",
     "archivo_glb": "./modelos/erectores espinales/longisimo/longisimo_cervical_izq.glb",
-    "origen": "Apófisis transversas de T1 a T5.", "insercion": "Apófisis transversas de C2 a C6.", "posicion": "Región cervical posterior.", "funcion": "Extensión y flexión lateral del cuello.", "irrigacion": "Arteria cervical profunda.", "inervacion": "Ramas posteriores de nervios espinales."
+    "origen": "Procesos tranversos de T1 a T5.", "insercion": "Procesos tranversos de C2 a C6.", "posicion": "Región cervical posterior.", "funcion": "Extensión y flexión lateral del cuello.", "irrigacion": "Arteria cervical profunda.", "inervacion": "Ramas posteriores de nervios espinales."
   },
   "longisimo_toracico_der": {
     "nombre": "Músculo Longísimo Torácico (Derecho)", "tipo": "musculo", "grupo": "intrínseco", "capa": "intermedia",
     "archivo_glb": "./modelos/erectores espinales/longisimo/longisimo_toracico_der.glb",
-    "origen": "Masa común erectora (sacro, ilion, lumbares).", "insercion": "Apófisis transversas torácicas y costillas inferiores.", "posicion": "Tórax posterior, central del erector.", "funcion": "Extensión de la columna vertebral.", "irrigacion": "Arterias intercostales y lumbares.", "inervacion": "Ramas posteriores de nervios espinales."
+    "origen": "Masa común erectora (sacro, ilion, lumbares).", "insercion": "Procesos tranversos torácicas y costillas inferiores.", "posicion": "Tórax posterior, central del erector.", "funcion": "Extensión de la columna vertebral.", "irrigacion": "Arterias intercostales y lumbares.", "inervacion": "Ramas posteriores de nervios espinales."
   },
   "longisimo_toracico_izq": {
     "nombre": "Músculo Longísimo Torácico (Izquierdo)", "tipo": "musculo", "grupo": "intrínseco", "capa": "intermedia",
     "archivo_glb": "./modelos/erectores espinales/longisimo/longisimo_toracico_izq.glb",
-    "origen": "Masa común erectora (sacro, ilion, lumbares).", "insercion": "Apófisis transversas torácicas y costillas inferiores.", "posicion": "Tórax posterior, central del erector.", "funcion": "Extensión de la columna vertebral.", "irrigacion": "Arterias intercostales y lumbares.", "inervacion": "Ramas posteriores de nervios espinales."
+    "origen": "Masa común erectora (sacro, ilion, lumbares).", "insercion": "Procesos tranversos torácicas y costillas inferiores.", "posicion": "Tórax posterior, central del erector.", "funcion": "Extensión de la columna vertebral.", "irrigacion": "Arterias intercostales y lumbares.", "inervacion": "Ramas posteriores de nervios espinales."
   },
 
   "esplenio_cabeza_der": {
     "nombre": "Músculo Esplenio de la Cabeza (Derecho)", "tipo": "musculo", "grupo": "intrínseco", "capa": "superficial",
     "archivo_glb": "./modelos/espinotransversales/esplenio_cabeza_der.glb",
-    "origen": "Ligamento nucal y apófisis espinosas C7-T4.", "insercion": "Apófisis mastoides y línea nucal superior.", "posicion": "Capa superficial de los músculos profundos del cuello.", "funcion": "Extensión, inclinación y rotación de la cabeza.", "irrigacion": "Arteria cervical profunda y occipital.", "inervacion": "Ramas posteriores de los nervios cervicales."
+    "origen": "Ligamento nucal y Procesos espinosos C7-T4.", "insercion": "Procesos mastoides y línea nucal superior.", "posicion": "Capa superficial de los músculos profundos del cuello.", "funcion": "Extensión, inclinación y rotación de la cabeza.", "irrigacion": "Arteria cervical profunda y occipital.", "inervacion": "Ramas posteriores de los nervios cervicales."
   },
   "esplenio_cabeza_izq": {
     "nombre": "Músculo Esplenio de la Cabeza (Izquierdo)", "tipo": "musculo", "grupo": "intrínseco", "capa": "superficial",
     "archivo_glb": "./modelos/espinotransversales/esplenio_cabeza_izq.glb",
-    "origen": "Ligamento nucal y apófisis espinosas C7-T4.", "insercion": "Apófisis mastoides y línea nucal superior.", "posicion": "Capa superficial de los músculos profundos del cuello.", "funcion": "Extensión, inclinación y rotación de la cabeza.", "irrigacion": "Arteria cervical profunda y occipital.", "inervacion": "Ramas posteriores de los nervios cervicales."
+    "origen": "Ligamento nucal y Procesos espinosos C7-T4.", "insercion": "Procesos mastoides y línea nucal superior.", "posicion": "Capa superficial de los músculos profundos del cuello.", "funcion": "Extensión, inclinación y rotación de la cabeza.", "irrigacion": "Arteria cervical profunda y occipital.", "inervacion": "Ramas posteriores de los nervios cervicales."
   },
   "esplenio_cervical_der": {
     "nombre": "Músculo Esplenio Cervical (Derecho)", "tipo": "musculo", "grupo": "intrínseco", "capa": "superficial",
     "archivo_glb": "./modelos/espinotransversales/esplenio_cervical_der.glb",
-    "origen": "Apófisis espinosas de T3 a T6.", "insercion": "Apófisis transversas de C1 a C3.", "posicion": "Cuello posterior, lateral al esplenio de la cabeza.", "funcion": "Extensión e inclinación lateral del cuello.", "irrigacion": "Arteria cervical profunda.", "inervacion": "Ramas posteriores de los nervios cervicales."
+    "origen": "Procesos espinosos de T3 a T6.", "insercion": "Procesos tranversos de C1 a C3.", "posicion": "Cuello posterior, lateral al esplenio de la cabeza.", "funcion": "Extensión e inclinación lateral del cuello.", "irrigacion": "Arteria cervical profunda.", "inervacion": "Ramas posteriores de los nervios cervicales."
   },
   "esplenio_cervical_izq": {
     "nombre": "Músculo Esplenio Cervical (Izquierdo)", "tipo": "musculo", "grupo": "intrínseco", "capa": "superficial",
     "archivo_glb": "./modelos/espinotransversales/esplenio_cervical_izq.glb",
-    "origen": "Apófisis espinosas de T3 a T6.", "insercion": "Apófisis transversas de C1 a C3.", "posicion": "Cuello posterior, lateral al esplenio de la cabeza.", "funcion": "Extensión e inclinación lateral del cuello.", "irrigacion": "Arteria cervical profunda.", "inervacion": "Ramas posteriores de los nervios cervicales."
+    "origen": "Procesos espinosos de T3 a T6.", "insercion": "Procesos tranversos de C1 a C3.", "posicion": "Cuello posterior, lateral al esplenio de la cabeza.", "funcion": "Extensión e inclinación lateral del cuello.", "irrigacion": "Arteria cervical profunda.", "inervacion": "Ramas posteriores de los nervios cervicales."
   },
 
   "oblicuo_inferior_der": {
     "nombre": "Músculo Oblicuo Inferior de la Cabeza (Derecho)", "tipo": "musculo", "grupo": "intrínseco", "capa": "profunda",
     "archivo_glb": "./modelos/sub occipital musculos/oblicuo.glb",
-    "origen": "Apófisis espinosa del axis (C2).", "insercion": "Apófisis transversa del atlas (C1).", "posicion": "Triángulo suboccipital.", "funcion": "Rotación del atlas y la cabeza hacia el mismo lado.", "irrigacion": "Arteria vertebral.", "inervacion": "Nervio suboccipital (C1)."
+    "origen": "Proceso espinoso del axis (C2).", "insercion": "Proceso transverso del atlas (C1).", "posicion": "Triángulo suboccipital.", "funcion": "Rotación del atlas y la cabeza hacia el mismo lado.", "irrigacion": "Arteria vertebral.", "inervacion": "Nervio suboccipital (C1)."
   },
   "oblicuo_inferior_izq": {
     "nombre": "Músculo Oblicuo Inferior de la Cabeza (Izquierdo)", "tipo": "musculo", "grupo": "intrínseco", "capa": "profunda",
     "archivo_glb": "./modelos/sub occipital musculos/oblicuo_inferior_izq.glb",
-    "origen": "Apófisis espinosa del axis (C2).", "insercion": "Apófisis transversa del atlas (C1).", "posicion": "Triángulo suboccipital.", "funcion": "Rotación del atlas y la cabeza hacia el mismo lado.", "irrigacion": "Arteria vertebral.", "inervacion": "Nervio suboccipital (C1)."
+    "origen": "Proceso espinoso del axis (C2).", "insercion": "Proceso transverso del atlas (C1).", "posicion": "Triángulo suboccipital.", "funcion": "Rotación del atlas y la cabeza hacia el mismo lado.", "irrigacion": "Arteria vertebral.", "inervacion": "Nervio suboccipital (C1)."
   },
   "oblicuo_superior_der": {
     "nombre": "Músculo Oblicuo Superior de la Cabeza (Derecho)", "tipo": "musculo", "grupo": "intrínseco", "capa": "profunda",
     "archivo_glb": "./modelos/sub occipital musculos/oblicuo_superior_der.glb",
-    "origen": "Apófisis transversa del atlas (C1).", "insercion": "Hueso occipital (entre líneas nucales superior e inferior).", "posicion": "Triángulo suboccipital.", "funcion": "Extensión y flexión lateral de la cabeza.", "irrigacion": "Arteria vertebral y occipital.", "inervacion": "Nervio suboccipital (C1)."
+    "origen": "Proceso transverso del atlas (C1).", "insercion": "Hueso occipital (entre líneas nucales superior e inferior).", "posicion": "Triángulo suboccipital.", "funcion": "Extensión y flexión lateral de la cabeza.", "irrigacion": "Arteria vertebral y occipital.", "inervacion": "Nervio suboccipital (C1)."
   },
   "oblicuo_superior_izq": {
     "nombre": "Músculo Oblicuo Superior de la Cabeza (Izquierdo)", "tipo": "musculo", "grupo": "intrínseco", "capa": "profunda",
     "archivo_glb": "./modelos/sub occipital musculos/oblicuo_superior_izq.glb",
-    "origen": "Apófisis transversa del atlas (C1).", "insercion": "Hueso occipital (entre líneas nucales superior e inferior).", "posicion": "Triángulo suboccipital.", "funcion": "Extensión y flexión lateral de la cabeza.", "irrigacion": "Arteria vertebral y occipital.", "inervacion": "Nervio suboccipital (C1)."
+    "origen": "Proceso transverso del atlas (C1).", "insercion": "Hueso occipital (entre líneas nucales superior e inferior).", "posicion": "Triángulo suboccipital.", "funcion": "Extensión y flexión lateral de la cabeza.", "irrigacion": "Arteria vertebral y occipital.", "inervacion": "Nervio suboccipital (C1)."
   },
   "recto_posterior_mayor_der": {
     "nombre": "Músculo Recto Posterior Mayor (Derecho)", "tipo": "musculo", "grupo": "intrínseco", "capa": "profunda",
     "archivo_glb": "./modelos/sub occipital musculos/recto_posterior_mayor_derecho.glb",
-    "origen": "Apófisis espinosa del axis (C2).", "insercion": "Porción lateral de la línea nucal inferior del occipital.", "posicion": "Triángulo suboccipital.", "funcion": "Extensión y rotación de la cabeza hacia el mismo lado.", "irrigacion": "Arteria vertebral.", "inervacion": "Nervio suboccipital (C1)."
+    "origen": "Proceso espinoso del axis (C2).", "insercion": "Porción lateral de la línea nucal inferior del occipital.", "posicion": "Triángulo suboccipital.", "funcion": "Extensión y rotación de la cabeza hacia el mismo lado.", "irrigacion": "Arteria vertebral.", "inervacion": "Nervio suboccipital (C1)."
   },
   "recto_posterior_mayor_izq": {
     "nombre": "Músculo Recto Posterior Mayor (Izquierdo)", "tipo": "musculo", "grupo": "intrínseco", "capa": "profunda",
     "archivo_glb": "./modelos/sub occipital musculos/recto_posterior_mayor_izq.glb",
-    "origen": "Apófisis espinosa del axis (C2).", "insercion": "Porción lateral de la línea nucal inferior del occipital.", "posicion": "Triángulo suboccipital.", "funcion": "Extensión y rotación de la cabeza hacia el mismo lado.", "irrigacion": "Arteria vertebral.", "inervacion": "Nervio suboccipital (C1)."
+    "origen": "Proceso espinoso del axis (C2).", "insercion": "Porción lateral de la línea nucal inferior del occipital.", "posicion": "Triángulo suboccipital.", "funcion": "Extensión y rotación de la cabeza hacia el mismo lado.", "irrigacion": "Arteria vertebral.", "inervacion": "Nervio suboccipital (C1)."
   },
   "recto_posterior_menor_der": {
     "nombre": "Músculo Recto Posterior Menor (Derecho)", "tipo": "musculo", "grupo": "intrínseco", "capa": "profunda",
@@ -165,177 +165,177 @@
   "dorsal_ancho_der": {
     "nombre": "Músculo Dorsal Ancho (Derecho)", "tipo": "musculo", "grupo": "extrínseco", "capa": "superficial",
     "archivo_glb": "./modelos/hipoaxiales/Dorsal_ancho_der.glb",
-    "origen": "Apófisis espinosas T7-L5, fascia toracolumbar, cresta ilíaca y costillas inferiores.", "insercion": "Surco intertubercular del húmero.", "posicion": "Dorso superficial inferior.", "funcion": "Extensión, aducción y rotación interna del brazo.", "irrigacion": "Arteria toracodorsal.", "inervacion": "Nervio toracodorsal (C6-C8)."
+    "origen": "Procesos espinosos T7-L5, fascia toracolumbar, cresta ilíaca y costillas inferiores.", "insercion": "Surco intertubercular del húmero.", "posicion": "Dorso superficial inferior.", "funcion": "Extensión, aducción y rotación interna del brazo.", "irrigacion": "Arteria toracodorsal.", "inervacion": "Nervio toracodorsal (C6-C8)."
   },
   "dorsal_ancho_izq": {
     "nombre": "Músculo Dorsal Ancho (Izquierdo)", "tipo": "musculo", "grupo": "extrínseco", "capa": "superficial",
     "archivo_glb": "./modelos/hipoaxiales/Dorsal_ancho_izq.glb",
-    "origen": "Apófisis espinosas T7-L5, fascia toracolumbar, cresta ilíaca y costillas inferiores.", "insercion": "Surco intertubercular del húmero.", "posicion": "Dorso superficial inferior.", "funcion": "Extensión, aducción y rotación interna del brazo.", "irrigacion": "Arteria toracodorsal.", "inervacion": "Nervio toracodorsal (C6-C8)."
+    "origen": "Procesos espinosos T7-L5, fascia toracolumbar, cresta ilíaca y costillas inferiores.", "insercion": "Surco intertubercular del húmero.", "posicion": "Dorso superficial inferior.", "funcion": "Extensión, aducción y rotación interna del brazo.", "irrigacion": "Arteria toracodorsal.", "inervacion": "Nervio toracodorsal (C6-C8)."
   },
   "elevador_escapula_der": {
     "nombre": "Músculo Elevador de la Escápula (Derecho)", "tipo": "musculo", "grupo": "extrínseco", "capa": "superficial",
     "archivo_glb": "./modelos/hipoaxiales/Elevador_de_la_escapula_der.glb",
-    "origen": "Apófisis transversas de C1 a C4.", "insercion": "Borde medial de la escápula (porción superior).", "posicion": "Cuello posterolateral.", "funcion": "Eleva la escápula e inclina el cuello.", "irrigacion": "Arteria dorsal de la escápula.", "inervacion": "Nervio dorsal de la escápula (C4-C5)."
+    "origen": "Procesos tranversos de C1 a C4.", "insercion": "Borde medial de la escápula (porción superior).", "posicion": "Cuello posterolateral.", "funcion": "Eleva la escápula e inclina el cuello.", "irrigacion": "Arteria dorsal de la escápula.", "inervacion": "Nervio dorsal de la escápula (C4-C5)."
   },
   "elevador_escapula_izq": {
     "nombre": "Músculo Elevador de la Escápula (Izquierdo)", "tipo": "musculo", "grupo": "extrínseco", "capa": "superficial",
     "archivo_glb": "./modelos/hipoaxiales/Elevador_de_la_escapula_izq.glb",
-    "origen": "Apófisis transversas de C1 a C4.", "insercion": "Borde medial de la escápula (porción superior).", "posicion": "Cuello posterolateral.", "funcion": "Eleva la escápula e inclina el cuello.", "irrigacion": "Arteria dorsal de la escápula.", "inervacion": "Nervio dorsal de la escápula (C4-C5)."
+    "origen": "Procesos tranversos de C1 a C4.", "insercion": "Borde medial de la escápula (porción superior).", "posicion": "Cuello posterolateral.", "funcion": "Eleva la escápula e inclina el cuello.", "irrigacion": "Arteria dorsal de la escápula.", "inervacion": "Nervio dorsal de la escápula (C4-C5)."
   },
   "romboide_mayor_der": {
     "nombre": "Músculo Romboide Mayor (Derecho)", "tipo": "musculo", "grupo": "extrínseco", "capa": "superficial",
     "archivo_glb": "./modelos/hipoaxiales/Romboide_mayor_der.glb",
-    "origen": "Apófisis espinosas de T2 a T5.", "insercion": "Borde medial de la escápula.", "posicion": "Dorso superior, profundo al trapecio.", "funcion": "Retrae y fija la escápula.", "irrigacion": "Arteria dorsal de la escápula.", "inervacion": "Nervio dorsal de la escápula."
+    "origen": "Procesos espinosos de T2 a T5.", "insercion": "Borde medial de la escápula.", "posicion": "Dorso superior, profundo al trapecio.", "funcion": "Retrae y fija la escápula.", "irrigacion": "Arteria dorsal de la escápula.", "inervacion": "Nervio dorsal de la escápula."
   },
   "romboide_mayor_izq": {
     "nombre": "Músculo Romboide Mayor (Izquierdo)", "tipo": "musculo", "grupo": "extrínseco", "capa": "superficial",
     "archivo_glb": "./modelos/hipoaxiales/Romboide_mayor_izq.glb",
-    "origen": "Apófisis espinosas de T2 a T5.", "insercion": "Borde medial de la escápula.", "posicion": "Dorso superior, profundo al trapecio.", "funcion": "Retrae y fija la escápula.", "irrigacion": "Arteria dorsal de la escápula.", "inervacion": "Nervio dorsal de la escápula."
+    "origen": "Procesos espinosos de T2 a T5.", "insercion": "Borde medial de la escápula.", "posicion": "Dorso superior, profundo al trapecio.", "funcion": "Retrae y fija la escápula.", "irrigacion": "Arteria dorsal de la escápula.", "inervacion": "Nervio dorsal de la escápula."
   },
   "romboide_menor_der": {
     "nombre": "Músculo Romboide Menor (Derecho)", "tipo": "musculo", "grupo": "extrínseco", "capa": "superficial",
     "archivo_glb": "./modelos/hipoaxiales/Romboide_menor_der.glb",
-    "origen": "Apófisis espinosas de C7 y T1.", "insercion": "Borde medial de la escápula (a nivel de la espina).", "posicion": "Superior al romboide mayor.", "funcion": "Retrae y eleva ligeramente la escápula.", "irrigacion": "Arteria dorsal de la escápula.", "inervacion": "Nervio dorsal de la escápula."
+    "origen": "Procesos espinosos de C7 y T1.", "insercion": "Borde medial de la escápula (a nivel de la espina).", "posicion": "Superior al romboide mayor.", "funcion": "Retrae y eleva ligeramente la escápula.", "irrigacion": "Arteria dorsal de la escápula.", "inervacion": "Nervio dorsal de la escápula."
   },
   "romboide_menor_izq": {
     "nombre": "Músculo Romboide Menor (Izquierdo)", "tipo": "musculo", "grupo": "extrínseco", "capa": "superficial",
     "archivo_glb": "./modelos/hipoaxiales/Romboide_menor_izq.glb",
-    "origen": "Apófisis espinosas de C7 y T1.", "insercion": "Borde medial de la escápula (a nivel de la espina).", "posicion": "Superior al romboide mayor.", "funcion": "Retrae y eleva ligeramente la escápula.", "irrigacion": "Arteria dorsal de la escápula.", "inervacion": "Nervio dorsal de la escápula."
+    "origen": "Procesos espinosos de C7 y T1.", "insercion": "Borde medial de la escápula (a nivel de la espina).", "posicion": "Superior al romboide mayor.", "funcion": "Retrae y eleva ligeramente la escápula.", "irrigacion": "Arteria dorsal de la escápula.", "inervacion": "Nervio dorsal de la escápula."
   },
   "serrato_post_inf_der": {
     "nombre": "Músculo Serrato Posterior Inferior (Derecho)", "tipo": "musculo", "grupo": "extrínseco", "capa": "intermedia",
     "archivo_glb": "./modelos/hipoaxiales/Serrato_posterior_inferior_der.glb",
-    "origen": "Apófisis espinosas de T11 a L2.", "insercion": "Bordes inferiores de las costillas 9 a 12.", "posicion": "Dorso inferior.", "funcion": "Deprime las costillas (accesorio de la espiración).", "irrigacion": "Arterias intercostales posteriores.", "inervacion": "Nervios intercostales (T9-T12)."
+    "origen": "Procesos espinosos de T11 a L2.", "insercion": "Bordes inferiores de las costillas 9 a 12.", "posicion": "Dorso inferior.", "funcion": "Deprime las costillas (accesorio de la espiración).", "irrigacion": "Arterias intercostales posteriores.", "inervacion": "Nervios intercostales (T9-T12)."
   },
   "serrato_post_inf_izq": {
     "nombre": "Músculo Serrato Posterior Inferior (Izquierdo)", "tipo": "musculo", "grupo": "extrínseco", "capa": "intermedia",
     "archivo_glb": "./modelos/hipoaxiales/Serrato_posterior_inferior_izq.glb",
-    "origen": "Apófisis espinosas de T11 a L2.", "insercion": "Bordes inferiores de las costillas 9 a 12.", "posicion": "Dorso inferior.", "funcion": "Deprime las costillas (accesorio de la espiración).", "irrigacion": "Arterias intercostales posteriores.", "inervacion": "Nervios intercostales (T9-T12)."
+    "origen": "Procesos espinosos de T11 a L2.", "insercion": "Bordes inferiores de las costillas 9 a 12.", "posicion": "Dorso inferior.", "funcion": "Deprime las costillas (accesorio de la espiración).", "irrigacion": "Arterias intercostales posteriores.", "inervacion": "Nervios intercostales (T9-T12)."
   },
   "serrato_post_sup_der": {
     "nombre": "Músculo Serrato Posterior Superior (Derecho)", "tipo": "musculo", "grupo": "extrínseco", "capa": "intermedia",
     "archivo_glb": "./modelos/hipoaxiales/Serrato_posterior_superior_der.glb",
-    "origen": "Apófisis espinosas de C7 a T3.", "insercion": "Bordes superiores de las costillas 2 a 5.", "posicion": "Dorso superior profundo.", "funcion": "Eleva las costillas (accesorio de la inspiración).", "irrigacion": "Arterias intercostales superiores.", "inervacion": "Nervios intercostales (T2-T5)."
+    "origen": "Procesos espinosos de C7 a T3.", "insercion": "Bordes superiores de las costillas 2 a 5.", "posicion": "Dorso superior profundo.", "funcion": "Eleva las costillas (accesorio de la inspiración).", "irrigacion": "Arterias intercostales superiores.", "inervacion": "Nervios intercostales (T2-T5)."
   },
   "serrato_post_sup_izq": {
     "nombre": "Músculo Serrato Posterior Superior (Izquierdo)", "tipo": "musculo", "grupo": "extrínseco", "capa": "intermedia",
     "archivo_glb": "./modelos/hipoaxiales/Serrato_posterior_superior_izq.glb",
-    "origen": "Apófisis espinosas de C7 a T3.", "insercion": "Bordes superiores de las costillas 2 a 5.", "posicion": "Dorso superior profundo.", "funcion": "Eleva las costillas (accesorio de la inspiración).", "irrigacion": "Arterias intercostales superiores.", "inervacion": "Nervios intercostales (T2-T5)."
+    "origen": "Procesos espinosos de C7 a T3.", "insercion": "Bordes superiores de las costillas 2 a 5.", "posicion": "Dorso superior profundo.", "funcion": "Eleva las costillas (accesorio de la inspiración).", "irrigacion": "Arterias intercostales superiores.", "inervacion": "Nervios intercostales (T2-T5)."
   },
 
   "intertransversos_dorsales_der": {
     "nombre": "Partes Dorsales de Intertransversos Lumbares (Derecho)", "tipo": "musculo", "grupo": "intrínseco", "capa": "profunda",
     "archivo_glb": "./modelos/hipoaxiales/Partes_dorsales_de_intertransversos_lumbares_laterales_der.glb",
-    "origen": "Apófisis accesorias lumbares.", "insercion": "Apófisis mamilares lumbares subyacentes.", "posicion": "Entre vértebras lumbares.", "funcion": "Estabilización y flexión lateral leve.", "irrigacion": "Arterias lumbares.", "inervacion": "Ramas posteriores de nervios espinales."
+    "origen": "Procesos accesorios lumbares.", "insercion": "Procesos mamilares lumbares subyacentes.", "posicion": "Entre vértebras lumbares.", "funcion": "Estabilización y flexión lateral leve.", "irrigacion": "Arterias lumbares.", "inervacion": "Ramas posteriores de nervios espinales."
   },
   "intertransversos_dorsales_izq": {
     "nombre": "Partes Dorsales de Intertransversos Lumbares (Izquierdo)", "tipo": "musculo", "grupo": "intrínseco", "capa": "profunda",
     "archivo_glb": "./modelos/hipoaxiales/Partes_dorsales_de_intertransversos_lumbares_laterales_izq.glb",
-    "origen": "Apófisis accesorias lumbares.", "insercion": "Apófisis mamilares lumbares subyacentes.", "posicion": "Entre vértebras lumbares.", "funcion": "Estabilización y flexión lateral leve.", "irrigacion": "Arterias lumbares.", "inervacion": "Ramas posteriores de nervios espinales."
+    "origen": "Procesos accesorios lumbares.", "insercion": "Procesos mamilares lumbares subyacentes.", "posicion": "Entre vértebras lumbares.", "funcion": "Estabilización y flexión lateral leve.", "irrigacion": "Arterias lumbares.", "inervacion": "Ramas posteriores de nervios espinales."
   },
   "intertransversos_ventrales_der": {
     "nombre": "Partes Ventrales de Intertransversos Lumbares (Derecho)", "tipo": "musculo", "grupo": "intrínseco", "capa": "profunda",
     "archivo_glb": "./modelos/hipoaxiales/Partes_ventrales_de_intertransversos_lumbares_laterales_der.glb",
-    "origen": "Apófisis transversas lumbares.", "insercion": "Apófisis transversa adyacente.", "posicion": "Entre apófisis transversas.", "funcion": "Flexión lateral de la columna.", "irrigacion": "Arterias lumbares.", "inervacion": "Ramas anteriores de nervios espinales."
+    "origen": "Procesos tranversos lumbares.", "insercion": "Proceso transverso adyacente.", "posicion": "Entre Procesos tranversos.", "funcion": "Flexión lateral de la columna.", "irrigacion": "Arterias lumbares.", "inervacion": "Ramas anteriores de nervios espinales."
   },
   "intertransversos_ventrales_izq": {
     "nombre": "Partes Ventrales de Intertransversos Lumbares (Izquierdo)", "tipo": "musculo", "grupo": "intrínseco", "capa": "profunda",
     "archivo_glb": "./modelos/hipoaxiales/Partes_ventrales_de_intertransversos_lumbares_laterales_izq.glb",
-    "origen": "Apófisis transversas lumbares.", "insercion": "Apófisis transversa adyacente.", "posicion": "Entre apófisis transversas.", "funcion": "Flexión lateral de la columna.", "irrigacion": "Arterias lumbares.", "inervacion": "Ramas anteriores de nervios espinales."
+    "origen": "Procesos tranversos lumbares.", "insercion": "Proceso transverso adyacente.", "posicion": "Entre Procesos tranversos.", "funcion": "Flexión lateral de la columna.", "irrigacion": "Arterias lumbares.", "inervacion": "Ramas anteriores de nervios espinales."
   },
 
   "interespinosos_cervicales_der": {
     "nombre": "Músculos Interespinosos Cervicales (Derecho)", "tipo": "musculo", "grupo": "intrínseco", "capa": "profunda",
     "archivo_glb": "./modelos/interespinosos/Interespinosos_cervicales_der.glb",
-    "origen": "Superficie superior de la apófisis espinosa.", "insercion": "Superficie inferior de la apófisis espinosa superior.", "posicion": "Profundo, uniendo espinosas cervicales.", "funcion": "Extensión de la columna cervical.", "irrigacion": "Arteria cervical profunda.", "inervacion": "Ramas posteriores de nervios espinales."
+    "origen": "Superficie superior de la Proceso espinoso.", "insercion": "Superficie inferior de la Proceso espinoso superior.", "posicion": "Profundo, uniendo espinosas cervicales.", "funcion": "Extensión de la columna cervical.", "irrigacion": "Arteria cervical profunda.", "inervacion": "Ramas posteriores de nervios espinales."
   },
   "interespinosos_cervicales_izq": {
     "nombre": "Músculos Interespinosos Cervicales (Izquierdo)", "tipo": "musculo", "grupo": "intrínseco", "capa": "profunda",
     "archivo_glb": "./modelos/interespinosos/Interespinosos_cervicales_izq.glb",
-    "origen": "Superficie superior de la apófisis espinosa.", "insercion": "Superficie inferior de la apófisis espinosa superior.", "posicion": "Profundo, uniendo espinosas cervicales.", "funcion": "Extensión de la columna cervical.", "irrigacion": "Arteria cervical profunda.", "inervacion": "Ramas posteriores de nervios espinales."
+    "origen": "Superficie superior de la Proceso espinoso.", "insercion": "Superficie inferior de la Proceso espinoso superior.", "posicion": "Profundo, uniendo espinosas cervicales.", "funcion": "Extensión de la columna cervical.", "irrigacion": "Arteria cervical profunda.", "inervacion": "Ramas posteriores de nervios espinales."
   },
   "interespinosos_lumbares_der": {
     "nombre": "Músculos Interespinosos Lumbares (Derecho)", "tipo": "musculo", "grupo": "intrínseco", "capa": "profunda",
     "archivo_glb": "./modelos/interespinosos/Interespinosos_lumbares_der.glb",
-    "origen": "Apófisis espinosas lumbares.", "insercion": "Apófisis espinosa adyacente superior.", "posicion": "Entre vértebras lumbares.", "funcion": "Extensión de la columna lumbar.", "irrigacion": "Arterias lumbares.", "inervacion": "Ramas posteriores de nervios espinales."
+    "origen": "Procesos espinosos lumbares.", "insercion": "Proceso espinoso adyacente superior.", "posicion": "Entre vértebras lumbares.", "funcion": "Extensión de la columna lumbar.", "irrigacion": "Arterias lumbares.", "inervacion": "Ramas posteriores de nervios espinales."
   },
   "interespinosos_lumbares_izq": {
     "nombre": "Músculos Interespinosos Lumbares (Izquierdo)", "tipo": "musculo", "grupo": "intrínseco", "capa": "profunda",
     "archivo_glb": "./modelos/interespinosos/Interespinosos_lumbares_izq.glb",
-    "origen": "Apófisis espinosas lumbares.", "insercion": "Apófisis espinosa adyacente superior.", "posicion": "Entre vértebras lumbares.", "funcion": "Extensión de la columna lumbar.", "irrigacion": "Arterias lumbares.", "inervacion": "Ramas posteriores de nervios espinales."
+    "origen": "Procesos espinosos lumbares.", "insercion": "Proceso espinoso adyacente superior.", "posicion": "Entre vértebras lumbares.", "funcion": "Extensión de la columna lumbar.", "irrigacion": "Arterias lumbares.", "inervacion": "Ramas posteriores de nervios espinales."
   },
   "interespinosos_toracicos_der": {
     "nombre": "Músculos Interespinosos Torácicos (Derecho)", "tipo": "musculo", "grupo": "intrínseco", "capa": "profunda",
     "archivo_glb": "./modelos/interespinosos/Interespinosos_torácicos_der.glb",
-    "origen": "Apófisis espinosas torácicas.", "insercion": "Apófisis espinosa adyacente superior.", "posicion": "Entre vértebras torácicas (a menudo ausentes centralmente).", "funcion": "Extensión torácica y estabilización.", "irrigacion": "Arterias intercostales.", "inervacion": "Ramas posteriores de nervios espinales."
+    "origen": "Procesos espinosos torácicas.", "insercion": "Proceso espinoso adyacente superior.", "posicion": "Entre vértebras torácicas (a menudo ausentes centralmente).", "funcion": "Extensión torácica y estabilización.", "irrigacion": "Arterias intercostales.", "inervacion": "Ramas posteriores de nervios espinales."
   },
   "interespinosos_toracicos_izq": {
     "nombre": "Músculos Interespinosos Torácicos (Izquierdo)", "tipo": "musculo", "grupo": "intrínseco", "capa": "profunda",
     "archivo_glb": "./modelos/interespinosos/Interespinosos_torácicos_izq.glb",
-    "origen": "Apófisis espinosas torácicas.", "insercion": "Apófisis espinosa adyacente superior.", "posicion": "Entre vértebras torácicas (a menudo ausentes centralmente).", "funcion": "Extensión torácica y estabilización.", "irrigacion": "Arterias intercostales.", "inervacion": "Ramas posteriores de nervios espinales."
+    "origen": "Procesos espinosos torácicas.", "insercion": "Proceso espinoso adyacente superior.", "posicion": "Entre vértebras torácicas (a menudo ausentes centralmente).", "funcion": "Extensión torácica y estabilización.", "irrigacion": "Arterias intercostales.", "inervacion": "Ramas posteriores de nervios espinales."
   },
 
   "multifido_cervical_der": {
     "nombre": "Músculo Multífido Cervical (Derecho)", "tipo": "musculo", "grupo": "intrínseco", "capa": "profunda",
     "archivo_glb": "./modelos/transversoespinosos/musculos multifidos/multifido_cervical_der.glb",
-    "origen": "Apófisis articulares de C4 a C7.", "insercion": "Apófisis espinosas de vértebras superiores (saltando 2-4).", "posicion": "Columna cervical profunda.", "funcion": "Estabilización y rotación contralateral.", "irrigacion": "Arteria cervical profunda.", "inervacion": "Ramas posteriores de nervios espinales."
+    "origen": "Procesos articulares de C4 a C7.", "insercion": "Procesos espinosos de vértebras superiores (saltando 2-4).", "posicion": "Columna cervical profunda.", "funcion": "Estabilización y rotación contralateral.", "irrigacion": "Arteria cervical profunda.", "inervacion": "Ramas posteriores de nervios espinales."
   },
   "multifido_cervical_izq": {
     "nombre": "Músculo Multífido Cervical (Izquierdo)", "tipo": "musculo", "grupo": "intrínseco", "capa": "profunda",
     "archivo_glb": "./modelos/transversoespinosos/musculos multifidos/Multífido_cervical_izq.glb",
-    "origen": "Apófisis articulares de C4 a C7.", "insercion": "Apófisis espinosas de vértebras superiores (saltando 2-4).", "posicion": "Columna cervical profunda.", "funcion": "Estabilización y rotación contralateral.", "irrigacion": "Arteria cervical profunda.", "inervacion": "Ramas posteriores de nervios espinales."
+    "origen": "Procesos articulares de C4 a C7.", "insercion": "Procesos espinosos de vértebras superiores (saltando 2-4).", "posicion": "Columna cervical profunda.", "funcion": "Estabilización y rotación contralateral.", "irrigacion": "Arteria cervical profunda.", "inervacion": "Ramas posteriores de nervios espinales."
   },
   "multifido_lumbar_der": {
     "nombre": "Músculo Multífido Lumbar (Derecho)", "tipo": "musculo", "grupo": "intrínseco", "capa": "profunda",
     "archivo_glb": "./modelos/transversoespinosos/musculos multifidos/Multífido_lumbar_der.glb",
-    "origen": "Sacro, espina ilíaca posterosuperior y apófisis mamilares lumbares.", "insercion": "Apófisis espinosas de vértebras superiores.", "posicion": "Columna lumbar profunda, muy desarrollado.", "funcion": "Extensión y estabilización lumbosacra.", "irrigacion": "Arterias lumbares y sacras.", "inervacion": "Ramas posteriores de nervios espinales."
+    "origen": "Sacro, espina ilíaca posterosuperior y Procesos mamilares lumbares.", "insercion": "Procesos espinosos de vértebras superiores.", "posicion": "Columna lumbar profunda, muy desarrollado.", "funcion": "Extensión y estabilización lumbosacra.", "irrigacion": "Arterias lumbares y sacras.", "inervacion": "Ramas posteriores de nervios espinales."
   },
   "multifido_lumbar_izq": {
     "nombre": "Músculo Multífido Lumbar (Izquierdo)", "tipo": "musculo", "grupo": "intrínseco", "capa": "profunda",
     "archivo_glb": "./modelos/transversoespinosos/musculos multifidos/Multífido_lumbar_izq.glb",
-    "origen": "Sacro, espina ilíaca posterosuperior y apófisis mamilares lumbares.", "insercion": "Apófisis espinosas de vértebras superiores.", "posicion": "Columna lumbar profunda, muy desarrollado.", "funcion": "Extensión y estabilización lumbosacra.", "irrigacion": "Arterias lumbares y sacras.", "inervacion": "Ramas posteriores de nervios espinales."
+    "origen": "Sacro, espina ilíaca posterosuperior y Procesos mamilares lumbares.", "insercion": "Procesos espinosos de vértebras superiores.", "posicion": "Columna lumbar profunda, muy desarrollado.", "funcion": "Extensión y estabilización lumbosacra.", "irrigacion": "Arterias lumbares y sacras.", "inervacion": "Ramas posteriores de nervios espinales."
   },
   "multifido_toracico_der": {
     "nombre": "Músculo Multífido Torácico (Derecho)", "tipo": "musculo", "grupo": "intrínseco", "capa": "profunda",
     "archivo_glb": "./modelos/transversoespinosos/musculos multifidos/Multífido_torácico_der.glb",
-    "origen": "Apófisis transversas torácicas.", "insercion": "Apófisis espinosas superiores (saltando 2-4).", "posicion": "Tórax posterior profundo.", "funcion": "Estabilización segmental de la columna torácica.", "irrigacion": "Arterias intercostales.", "inervacion": "Ramas posteriores de nervios espinales."
+    "origen": "Procesos tranversos torácicas.", "insercion": "Procesos espinosos superiores (saltando 2-4).", "posicion": "Tórax posterior profundo.", "funcion": "Estabilización segmental de la columna torácica.", "irrigacion": "Arterias intercostales.", "inervacion": "Ramas posteriores de nervios espinales."
   },
   "multifido_toracico_izq": {
     "nombre": "Músculo Multífido Torácico (Izquierdo)", "tipo": "musculo", "grupo": "intrínseco", "capa": "profunda",
     "archivo_glb": "./modelos/transversoespinosos/musculos multifidos/Multífido_torácico_izq.glb",
-    "origen": "Apófisis transversas torácicas.", "insercion": "Apófisis espinosas superiores (saltando 2-4).", "posicion": "Tórax posterior profundo.", "funcion": "Estabilización segmental de la columna torácica.", "irrigacion": "Arterias intercostales.", "inervacion": "Ramas posteriores de nervios espinales."
+    "origen": "Procesos tranversos torácicas.", "insercion": "Procesos espinosos superiores (saltando 2-4).", "posicion": "Tórax posterior profundo.", "funcion": "Estabilización segmental de la columna torácica.", "irrigacion": "Arterias intercostales.", "inervacion": "Ramas posteriores de nervios espinales."
   },
 
   "rotadores_der": {
     "nombre": "Músculos Rotadores (Derecho)", "tipo": "musculo", "grupo": "intrínseco", "capa": "profunda",
     "archivo_glb": "./modelos/transversoespinosos/rotadores/Rotadores_der.glb",
-    "origen": "Apófisis transversas.", "insercion": "Lámina y base de la apófisis espinosa de la vértebra inmediatamente superior.", "posicion": "Capa más profunda de los transversoespinosos.", "funcion": "Estabilización y propiocepción, rotación contralateral.", "irrigacion": "Arterias segmentarias dorsales.", "inervacion": "Ramas posteriores de nervios espinales."
+    "origen": "Procesos tranversos.", "insercion": "Lámina y base de la Proceso espinoso de la vértebra inmediatamente superior.", "posicion": "Capa más profunda de los transversoespinosos.", "funcion": "Estabilización y propiocepción, rotación contralateral.", "irrigacion": "Arterias segmentarias dorsales.", "inervacion": "Ramas posteriores de nervios espinales."
   },
   "rotadores_izq": {
     "nombre": "Músculos Rotadores (Izquierdo)", "tipo": "musculo", "grupo": "intrínseco", "capa": "profunda",
     "archivo_glb": "./modelos/transversoespinosos/rotadores/Rotadores_izq.glb",
-    "origen": "Apófisis transversas.", "insercion": "Lámina y base de la apófisis espinosa de la vértebra inmediatamente superior.", "posicion": "Capa más profunda de los transversoespinosos.", "funcion": "Estabilización y propiocepción, rotación contralateral.", "irrigacion": "Arterias segmentarias dorsales.", "inervacion": "Ramas posteriores de nervios espinales."
+    "origen": "Procesos tranversos.", "insercion": "Lámina y base de la Proceso espinoso de la vértebra inmediatamente superior.", "posicion": "Capa más profunda de los transversoespinosos.", "funcion": "Estabilización y propiocepción, rotación contralateral.", "irrigacion": "Arterias segmentarias dorsales.", "inervacion": "Ramas posteriores de nervios espinales."
   },
 
   "semiespinal_cervical_der": {
     "nombre": "Músculo Semiespinal Cervical (Derecho)", "tipo": "musculo", "grupo": "intrínseco", "capa": "profunda",
     "archivo_glb": "./modelos/transversoespinosos/semiespinales/Semiespinal_cervical_der.glb",
-    "origen": "Apófisis transversas de T1 a T6.", "insercion": "Apófisis espinosas de C2 a C5.", "posicion": "Región cervical posterior, bajo el esplenio.", "funcion": "Extensión y rotación contralateral del cuello.", "irrigacion": "Arteria cervical profunda.", "inervacion": "Ramas posteriores de nervios espinales."
+    "origen": "Procesos tranversos de T1 a T6.", "insercion": "Procesos espinosos de C2 a C5.", "posicion": "Región cervical posterior, bajo el esplenio.", "funcion": "Extensión y rotación contralateral del cuello.", "irrigacion": "Arteria cervical profunda.", "inervacion": "Ramas posteriores de nervios espinales."
   },
   "semiespinal_cervical_izq": {
     "nombre": "Músculo Semiespinal Cervical (Izquierdo)", "tipo": "musculo", "grupo": "intrínseco", "capa": "profunda",
     "archivo_glb": "./modelos/transversoespinosos/semiespinales/Semiespinal_cervical_izq.glb",
-    "origen": "Apófisis transversas de T1 a T6.", "insercion": "Apófisis espinosas de C2 a C5.", "posicion": "Región cervical posterior, bajo el esplenio.", "funcion": "Extensión y rotación contralateral del cuello.", "irrigacion": "Arteria cervical profunda.", "inervacion": "Ramas posteriores de nervios espinales."
+    "origen": "Procesos tranversos de T1 a T6.", "insercion": "Procesos espinosos de C2 a C5.", "posicion": "Región cervical posterior, bajo el esplenio.", "funcion": "Extensión y rotación contralateral del cuello.", "irrigacion": "Arteria cervical profunda.", "inervacion": "Ramas posteriores de nervios espinales."
   },
   "semiespinal_toracico_der": {
     "nombre": "Músculo Semiespinal Torácico (Derecho)", "tipo": "musculo", "grupo": "intrínseco", "capa": "profunda",
     "archivo_glb": "./modelos/transversoespinosos/semiespinales/Semiespinal_torácico_der.glb",
-    "origen": "Apófisis transversas de T6 a T10.", "insercion": "Apófisis espinosas de C6 a T4.", "posicion": "Región torácica posterior profunda.", "funcion": "Extensión y rotación contralateral del tórax.", "irrigacion": "Arterias intercostales.", "inervacion": "Ramas posteriores de nervios espinales."
+    "origen": "Procesos tranversos de T6 a T10.", "insercion": "Procesos espinosos de C6 a T4.", "posicion": "Región torácica posterior profunda.", "funcion": "Extensión y rotación contralateral del tórax.", "irrigacion": "Arterias intercostales.", "inervacion": "Ramas posteriores de nervios espinales."
   },
   "semiespinal_toracico_izq": {
     "nombre": "Músculo Semiespinal Torácico (Izquierdo)", "tipo": "musculo", "grupo": "intrínseco", "capa": "profunda",
     "archivo_glb": "./modelos/transversoespinosos/semiespinales/Semiespinal_torácico_izq.glb",
-    "origen": "Apófisis transversas de T6 a T10.", "insercion": "Apófisis espinosas de C6 a T4.", "posicion": "Región torácica posterior profunda.", "funcion": "Extensión y rotación contralateral del tórax.", "irrigacion": "Arterias intercostales.", "inervacion": "Ramas posteriores de nervios espinales."
+    "origen": "Procesos tranversos de T6 a T10.", "insercion": "Procesos espinosos de C6 a T4.", "posicion": "Región torácica posterior profunda.", "funcion": "Extensión y rotación contralateral del tórax.", "irrigacion": "Arterias intercostales.", "inervacion": "Ramas posteriores de nervios espinales."
   },
   "trapecio_descendente_izq": {
     "nombre": "Parte Descendente del Trapecio (Izquierdo)",
@@ -369,7 +369,7 @@
     "grupo": "extrínseco",
     "capa": "superficial",
     "archivo_glb": "./modelos/hipoaxiales/trapecio/Parte_transversa_del_trapecio_izq.glb",
-    "origen": "Apófisis espinosas y ligamentos supraespinosos de C7 a T3.",
+    "origen": "Procesos espinosos y ligamentos supraespinosos de C7 a T3.",
     "insercion": "Acromion y borde superior de la espina de la escápula.",
     "posicion": "Región posterior media del dorso, superficial a los romboides.",
     "funcion": "Retracción de la escápula (acercamiento a la columna vertebral).",
@@ -382,7 +382,7 @@
     "grupo": "extrínseco",
     "capa": "superficial",
     "archivo_glb": "./modelos/hipoaxiales/trapecio/Parte_transversa_del_trapecio_der.glb",
-    "origen": "Apófisis espinosas y ligamentos supraespinosos de C7 a T3.",
+    "origen": "Procesos espinosos y ligamentos supraespinosos de C7 a T3.",
     "insercion": "Acromion y borde superior de la espina de la escápula.",
     "posicion": "Región posterior media del dorso, superficial a los romboides.",
     "funcion": "Retracción de la escápula (acercamiento a la columna vertebral).",
@@ -395,7 +395,7 @@
     "grupo": "extrínseco",
     "capa": "superficial",
     "archivo_glb": "./modelos/hipoaxiales/trapecio/Parte_ascendente_del_trapecio_izq.glb",
-    "origen": "Apófisis espinosas y ligamentos supraespinosos de T4 a T12.",
+    "origen": "Procesos espinosos y ligamentos supraespinosos de T4 a T12.",
     "insercion": "Extremo medial de la espina de la escápula.",
     "posicion": "Región posterior inferior del dorso.",
     "funcion": "Depresión de la escápula y rotación superior de la cavidad glenoidea.",
@@ -408,7 +408,7 @@
     "grupo": "extrínseco",
     "capa": "superficial",
     "archivo_glb": "./modelos/hipoaxiales/trapecio/Parte_ascendente_del_trapecio_der.glb",
-    "origen": "Apófisis espinosas y ligamentos supraespinosos de T4 a T12.",
+    "origen": "Procesos espinosos y ligamentos supraespinosos de T4 a T12.",
     "insercion": "Extremo medial de la espina de la escápula.",
     "posicion": "Región posterior inferior del dorso.",
     "funcion": "Depresión de la escápula y rotación superior de la cavidad glenoidea.",
