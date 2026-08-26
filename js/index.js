@@ -9,7 +9,7 @@ const camera = new THREE.PerspectiveCamera(
   60,
   container.clientWidth / container.clientHeight,
   0.1,
-  1000,
+  1000
 );
 camera.position.set(0, 0, 5);
 
@@ -29,14 +29,12 @@ const controls = new THREE.OrbitControls(camera, renderer.domElement);
 
 controls.listenToKeyEvents(window); 
 
-
 controls.keys = {
   LEFT: 'KeyA',  
   UP: 'KeyW',    
   RIGHT: 'KeyD',  
   BOTTOM: 'KeyS'  
 };
-
 
 controls.keyPanSpeed = 15.0;
 controls.enableDamping = true;
@@ -121,7 +119,7 @@ fetch("./js/musculos.json")
             scene.add(modelo);
           },
           undefined,
-          (error) => console.error(`Error al cargar ${idObjeto}:`, error),
+          (error) => console.error(`Error al cargar ${idObjeto}:`, error)
         );
       }
     });
@@ -177,18 +175,40 @@ window.addEventListener("pointerup", (event) => {
   }
 });
 
+// Función blindada para limpiar nombres e IDs
+function obtenerNombreBase(texto) {
+  if (!texto) return "";
+  return String(texto)
+    .replace(/\s*\((Derecho|Izquierdo|Derecha|Izquierda|Der|Izq|Right|Left|R|L)\)/gi, "")
+    .replace(/(_L|_R|_Left|_Right|_izq|_der|-L|-R|\.L|\.R)$/i, "")
+    .trim()
+    .toLowerCase();
+}
+
 function resaltarObjeto(objeto3D) {
   const idSeleccionado = objeto3D.userData.idObjeto;
+  const infoSeleccionada = baseDeDatos[idSeleccionado];
+  
+  const nombreRaw = infoSeleccionada ? infoSeleccionada.nombre : idSeleccionado;
+  const nombreBaseSeleccionado = obtenerNombreBase(nombreRaw);
 
   modelosInteractivos.forEach((mesh) => {
     if (mesh.userData.tipo !== "hueso") {
+      
+      // 1. Restaurar tus colores
       if (mesh.userData.tipo === "tendon") {
         mesh.material.color.setHex(0xeaeaea);
       } else {
         mesh.material.color.setHex(0x9e2a2b);
       }
 
-      if (mesh.userData.idObjeto === idSeleccionado) {
+      // 2. Sacamos la base del mesh actual
+      const infoMesh = baseDeDatos[mesh.userData.idObjeto];
+      const nombreRawMesh = infoMesh ? infoMesh.nombre : mesh.userData.idObjeto;
+      const nombreBaseMesh = obtenerNombreBase(nombreRawMesh);
+
+      // 3. Iluminar
+      if (nombreBaseMesh === nombreBaseSeleccionado && nombreBaseSeleccionado !== "") {
         mesh.material.transparent = false;
         mesh.material.opacity = 1.0;
         mesh.material.depthWrite = true;
@@ -209,12 +229,17 @@ function mostrarInfoPanel(idObjeto) {
   const panel = document.getElementById("info-panel");
   const tituloMovil = document.querySelector(".titulo-movil");
 
-  if (info) {
-    if (tituloMovil) tituloMovil.textContent = info.nombre;
+  if (!info) return;
 
+  const nombreOriginal = info.nombre || idObjeto || "";
+  const nombreLimpio = nombreOriginal.replace(/\s*\((Derecho|Izquierdo|Derecha|Izquierda|Der|Izq|Right|Left|R|L)\)/gi, "");
+  
+  if (tituloMovil) tituloMovil.textContent = nombreLimpio;
+
+  if (panel) {
     panel.innerHTML = `
       <div class="right-header" style="margin-bottom: 15px;">
-         <h2 style="color: #E23D75; font-size: 1.15rem; font-weight: 500; margin: 0;">${info.nombre}</h2>
+         <h2 style="color: #E23D75; font-size: 1.15rem; font-weight: 500; margin: 0;">${nombreLimpio}</h2>
       </div>
 
       <div class="info-section" style="background-color: #181C25; border-radius: 12px; padding: 16px; margin-bottom: 15px; border-left: 3px solid #E23D75; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
@@ -248,7 +273,6 @@ window.filtrarCapa = function (capaObjetivo, botonClicado) {
   if (botonClicado) {
     const botones = document.querySelectorAll(".lista-capas .layer-btn");
     botones.forEach((btn) => btn.classList.remove("active-layer"));
-
     botonClicado.classList.add("active-layer");
   }
 
@@ -258,17 +282,14 @@ window.filtrarCapa = function (capaObjetivo, botonClicado) {
     let coincide = false;
 
     if (capaObjetivo === "todos") coincide = true;
-    else if (capaObjetivo === "superficial" && capaMesh.includes("superficial"))
-      coincide = true;
-    else if (capaObjetivo === "intermedio" && capaMesh.includes("intermedi"))
-      coincide = true;
+    else if (capaObjetivo === "superficial" && capaMesh.includes("superficial")) coincide = true;
+    else if (capaObjetivo === "intermedio" && capaMesh.includes("intermedi")) coincide = true;
     else if (
       capaObjetivo === "intrinseco" &&
       (capaMesh.includes("intrinsec") ||
         capaMesh.includes("intrínsec") ||
         capaMesh.includes("profund"))
-    )
-      coincide = true;
+    ) coincide = true;
 
     if (tipoMesh === "hueso" || coincide) {
       mesh.visible = true;
@@ -303,17 +324,20 @@ window.addEventListener("resize", () => {
 
 const searchInput = document.getElementById("search-input");
 if (searchInput) {
+  searchInput.addEventListener("keydown", (evento) => {
+    evento.stopPropagation();
+  });
+
   searchInput.addEventListener("input", (evento) => {
     const textoBuscado = evento.target.value.toLowerCase();
-
+    
     generarListaMusculos(textoBuscado);
 
     modelosInteractivos.forEach((mesh) => {
       const tipoMesh = mesh.userData.tipo;
       const idObjeto = mesh.userData.idObjeto;
       const info = baseDeDatos[idObjeto];
-      const nombreMusculo =
-        info && info.nombre ? info.nombre.toLowerCase() : "";
+      const nombreMusculo = info && info.nombre ? info.nombre.toLowerCase() : "";
 
       if (tipoMesh !== "hueso") {
         mesh.visible = true;
@@ -347,7 +371,7 @@ function generarListaMusculos(filtro = "") {
     const info = baseDeDatos[idObjeto];
 
     if (info.tipo !== "hueso") {
-      const nombreMusculo = info.nombre.toLowerCase();
+      const nombreMusculo = info.nombre ? info.nombre.toLowerCase() : "";
 
       if (nombreMusculo.includes(filtro.toLowerCase())) {
         const itemLista = document.createElement("button");
